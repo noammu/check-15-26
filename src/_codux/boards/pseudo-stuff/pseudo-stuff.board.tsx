@@ -5,4 +5,6 @@ export default createBoard({
     name: 'active',
     Board: () => <PseudoStuff disabled={false} />,
     isSnippet: true,
+    environmentProps: {
+    },
 });

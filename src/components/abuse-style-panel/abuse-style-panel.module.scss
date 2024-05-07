@@ -26,6 +26,7 @@
   text-decoration-color: #b13030;
   text-decoration-style: double;
   text-shadow: -0.57px 0.82px 46px black;
+  background-color: #9bfe90;
 }
 .label {
   align-self: center;
@@ -37,7 +38,21 @@
   box-shadow: -6.88px 9.83px 17px 8px #ef8181;
   cursor: pointer;
   outline: solid cyan;
+  animation: 3s linear 0s infinite upDown;
 }
+
+@keyframes upDown {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, -300px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
 .asdf {
 }
 .asdfsdf {
@@ -115,6 +130,17 @@
   background-clip: border-box;
   background-color: transparent;
   color: orange;
+  animation: 5s linear 0s infinite spin;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .iniputput {
 }

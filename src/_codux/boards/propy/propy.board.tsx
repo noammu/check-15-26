@@ -3,6 +3,6 @@ import { Propy } from '../../../components/propy/propy';
 
 export default createBoard({
     name: 'Propy',
-    Board: () => <Propy stringy="לחט" propy={4} arrrStr={['noam', 'dor', 'dandan', 'shem']} />,
+    Board: () => <Propy stringy="לחט" propy={55} arrrStr={['noam', 'dor', 'dandan', 'shem']} />,
     isSnippet: true,
 });
