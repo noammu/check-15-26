@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import styles from './elem-tree.module.scss';
 import { AddComp } from '../add-comp/add-comp';
+import CoduxSvg from '../../assets/codux.svg';
 
 export interface ElemTreeProps {
     className?: string;
@@ -14,6 +15,7 @@ export interface ElemTreeProps {
 export const ElemTree = ({ className }: ElemTreeProps) => {
     return (
         <div className={classNames(styles.root, className)}>
+            <img src={CoduxSvg} alt="" className={styles.imgmgmg} />
             <nav className={styles.navnav}>
                 <a href="/home" className={styles.link}>
                     Home
@@ -35,6 +37,7 @@ export const ElemTree = ({ className }: ElemTreeProps) => {
                 <img
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     alt=""
+                    className={styles.imggg}
                 />
             </div>
             <div>

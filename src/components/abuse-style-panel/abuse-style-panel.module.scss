@@ -11,7 +11,6 @@
   overflow: visible;
   z-index: 2;
   margin: 15px 2em 2px 2px;
-  padding: 5px;
   font-family: Helvetica, Arial, times-new-roman;
   font-size: 18px;
   line-height: 1;
@@ -108,6 +107,7 @@
 .nmnmhjmgfd {
 }
 .dfhgyhdf {
+  border: 3px solid black;
 }
 .stu {
   width: 200px;
@@ -143,4 +143,11 @@
 }
 
 .iniputput {
+}
+.special {
+  width: 75px;
+  height: 55px;
+  display: block;
+  z-index: 565;
+  margin-top: 05px;
 }

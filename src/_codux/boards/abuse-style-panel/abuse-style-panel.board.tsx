@@ -5,4 +5,8 @@ export default createBoard({
     name: 'AbuseStylePanel',
     Board: () => <AbuseStylePanel />,
     isSnippet: true,
+    environmentProps: {
+        canvasBackgroundColor: '#ffffff',
+        windowBackgroundColor: '#ffffff',
+    },
 });
